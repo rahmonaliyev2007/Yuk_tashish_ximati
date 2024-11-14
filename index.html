@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yuk Tashish xizmati</title>
+    <link rel="shortcut icon" href="./rasmlar/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/main.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header id="home">
+        <nav class="navbar">
+            <div class="container navbar-container">
+                <a href="#" class="logo"><img src="./rasmlar/logo.png" alt="Web-Logo"></a>
+                <ul class="nav-links" id="navLinks">
+                    <span class="close-navmenu" onclick="toggleMenu()">✖</span>
+                    <li><a href="#home" onclick="toggleMenu()">Asosiy</a></li>
+                    <li><a href="#section1" onclick="toggleMenu()">Biz haqimizda</a></li>
+                    <li><a href="#section2" onclick="toggleMenu()">Haydovchilar</a></li>
+                    <li><a href="#contact" onclick="toggleMenu()">Aloqa</a></li>
+                    <li><select class="til" name="Language" id="site-language" onchange="changeLanguage(this.value)">
+                            <option value="O'zbekcha">O'zbekcha</option>
+                            <option value="Russian">Ruscha</option>
+                            <option value="English">Inglizcha</option>
+                        </select>
+                    </li>
+
+                </ul>
+                <div class="menu-icon" onclick="toggleMenu()">☰</div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class=" header-main">
+                <h1>
+                    Biz bilan yuklaringiz <span> tez va bexatar</span>
+                    manzilga yetib keladi.
+                </h1>
+                <button>Tanishish</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="section1" class="container">
+            <h2>Biz haqimizda</h2>
+            <p>
+                Nec neque tristique vulputate purus integer interdum accumsan. Dignissim ultrices laoreet est pulvinar
+                nec proin adipiscing.Nec neque tristique vulputate purus integer interdum accumsan. Dignissim ultrices
+                laoreet est pulvinar nec proin adipiscing.Nec neque tristique vulputate purus integer interdum accumsan.
+                Dignissim ultrices laoreet est pulvinar nec proin adipiscing.Nec neque tristique vulputate purus integer
+                interdum accumsan. Dignissim ultrices laoreet est pulvinar nec proin adipiscing.
+            </p>
+            <p>
+                Nec neque tristique vulputate purus integer interdum accumsan. Dignissim ultrices laoreet est pulvinar
+                nec proin adipiscing.Nec neque tristique vulputate purus integer interdum accumsan. Dignissim ultrices
+                laoreet est pulvinar nec proin adipiscing.Nec neque tristique vulputate purus integer interdum accumsan.
+                Dignissim ultrices laoreet est pulvinar nec proin adipiscing.Nec neque tristique vulputate purus integer
+                interdum accumsan. Dignissim ultrices laoreet est pulvinar nec proin adipiscing.
+            </p>
+        </section>
+        <section id="section2" class="container">
+            <h2>Haydovchilar</h2>
+            <div class="card-group">
+                <a href="" class="card">
+                    <img src="./rasmlar/driver-profile.png" alt="driver_Photo">
+                    <p>Ismi: <span> Morgan Freeman</span></p>
+                    <p>Tajribasi: <span> 2 yil</span></p>
+                    <p>Kasbi: <span>Yuk mashina haydovchisi</span></p>
+                    <div class="ishhaqi">150$/soat</div>
+                </a>
+                <a href="" class="card">
+                    <img src="./rasmlar/driver-profile.png" alt="driver_Photo">
+                    <p>Ismi: <span> Morgan Freeman</span></p>
+                    <p>Tajribasi: <span> 2 yil</span></p>
+                    <p>Kasbi: <span>Yuk mashina haydovchisi</span></p>
+                    <div class="ishhaqi">150$/soat</div>
+                </a>
+                <a href="" class="card">
+                    <img src="./rasmlar/driver-profile.png" alt="driver_Photo">
+                    <p>Ismi: <span> Morgan Freeman</span></p>
+                    <p>Tajribasi: <span> 2 yil</span></p>
+                    <p>Kasbi: <span>Yuk mashina haydovchisi</span></p>
+                    <div class="ishhaqi">150$/soat</div>
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-top">
+            <div class="container footer-card-group">
+                <div class="footer-card">
+                    <h3 id="contact">Aloqa</h3>
+                    <p><img src="./iconlar/tel.png" alt="icon">+998 90 816 6707</p>
+                    <p><img src="./iconlar/lokatsiya.png" alt="icon">Toshkent shaxar, bektemir tumani, Nurafshon MFY 1000-uy</p>
+                    <p><img src="./iconlar/mail.png" alt="icon"><a href="mailto:afmz3@wimsg.com">afmz3@wimsg.com</a></p>
+                </div>
+                <div class="footer-card footer-aloqa">
+                    <h3>Menyu</h3>
+                    <ul>
+                        <li><a href="#home">Asosiy</a></li>
+                    <li><a href="#section1">Biz haqimizda</a></li>
+                    <li><a href="#section2">Haydovchilar</a></li>
+                    <li><a href="#contact">Aloqa</a></li>
+                    </ul>
+                </div>
+                <div class="footer-card">
+                    <h3 id="Murojat">Murojat qilish</h3>
+                    <form action="#">
+                        <label for="ism">
+                            <input type="text" placeholder="Ism" id="ism" value="Ism">
+                        </label>
+                        <label for="nomer">
+                            <input type="text" placeholder="Telefon raqam" id="nomer" value="Telefon raqam">
+                        </label>
+                        <label for="mail">
+                            <input type="text" placeholder="E-mail" id="mail" value="E-mail">
+                        </label>
+                        <button type="submit">Yuborish</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom container">
+            <p>©2021 Barcha huquqlar himoyalangan</p>
+            <div class="social-blue social">
+                <a href=""><img src="./rasmlar/facebook-blue.png" alt="socialMedia Facebook"></a>
+                <a href=""><img src="./rasmlar/insta-blue.png" alt="socialMedia Instagram"></a>
+                <a href=""><img src="./rasmlar/tg-blue.png" alt="socialMedia Telegram"></a>
+            </div>
+            <div class="social-orange social">
+                <a href=""><img src="./rasmlar/facebook-orange.png" alt="socialMedia Facebook"></a>
+                <a href=""><img src="./rasmlar/insta-orange.png" alt="socialMedia Instagram"></a>
+                <a href=""><img src="./rasmlar/tg-orange.png" alt="socialMedia Telegram"></a>
+            </div>
+        </div>
+    </footer>
+    <a class="arrow" href="#home"><img src="./rasmlar/arrow.png" alt="arrow"></a>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

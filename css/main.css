@@ -1,0 +1,470 @@
+*{
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    transition: all 0.1s ease;
+}
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    max-width: 1260px;
+    padding: 0 20px;
+    margin: auto;
+}
+
+
+
+
+/* -------------------------------------------------------------------------------------------------------- */
+
+
+
+
+header{
+    background: url(../rasmlar/header-bg2.jpg);
+    background-size: cover;
+    background-position: center ;
+    padding-bottom: 350px;
+}
+/* header .navbar{
+    background-color: aqua;
+} */
+header .navbar .navbar-container{
+    display: flex;
+    align-items: center;
+    padding: 20px 0 0;
+    justify-content: space-between;
+}
+header .navbar .navbar-container ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* background-color: aquamarine; */
+}
+header .navbar .navbar-container ul li a{
+    display: block;
+    padding: 20px 30px;
+    font-weight:400 ;
+    font-size: 20px;
+    line-height: 24px;
+    color: white;
+}
+header .navbar .navbar-container ul li .til{
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    padding: 5px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.nav-links a:hover{
+    text-decoration: underline;
+}
+header .header-main{
+    max-width: 670px;
+    margin-top: 300px;
+}
+header .header-main h1{
+    margin-bottom: 50px;
+    font-weight: 700;
+    line-height: 54px;
+    font-size: 36px;
+    color: white;
+}
+header .header-main button{
+    padding: 15px 70px;
+    border: none;
+    background: rgba(17, 78, 134, 1);
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    cursor: pointer;
+}  
+header .header-main button:hover{
+    background: rgb(1, 56, 107);
+}
+.menu-icon{
+    display: none ;
+    font-size: 1.5em;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+    position: relative;
+    padding: 20px;
+}
+.close-navmenu{   
+    display: none;
+    font-size: 20px;
+    color: #fff;
+    position: absolute;
+    top: 45px;
+    right: 25px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+/* ========================================================   Main   Main   Main   =========================================================== */
+
+
+
+main #section1 h2{
+    font-weight:bold ;
+    text-align: center;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 1);
+    margin-top: 150px;
+}
+main #section1 p{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    max-width: 860px;
+    margin: auto;
+    margin-top: 35px;
+    text-align: justify;
+}
+
+
+/* -------------------------------------------------------------- */
+
+
+main #section2 h2{
+    margin-top: 150px;
+    font-size:30px ;
+    font-weight: bold;
+    text-align: center;
+}
+main #section2 .card-group{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 25px;
+    margin-top: 85px;
+    gap: 45px;
+    /* justify-content: space-between; */
+}
+main #section2 .card-group .card{
+    max-width: 370px;
+    min-width: 200px;
+    padding: 50px 50px 130px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    position: relative;
+
+}
+main #section2 .card-group .card:hover{
+    background-color: rgba(17, 78, 134, 1);
+    border-color: rgba(17, 78, 134, 1);
+}
+main #section2 .card-group .card:hover p{
+    color: white;
+}
+main #section2 .card-group .card:hover .ishhaqi{
+    color: white;
+}
+main #section2 .card-group .card img{
+    width: 160px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 35px;
+}
+main #section2 .card-group .card p{
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 16px; 
+    color: black;
+    transition: color 0s ease;
+    transition-behavior: smooth;
+}
+main #section2 .card-group .card p span{
+    font-weight: 400;
+}
+main #section2 .card-group .card .ishhaqi{
+    position: absolute;
+    bottom: 35px;
+    right: 35px;
+    color: rgba(17, 78, 134, 1);
+}
+
+/* =====================================================   Footer   Footer   Footer   ======================================================== */
+
+
+footer{
+    background-color: rgba(0, 0, 0, 0.85);
+    padding-bottom: 40px;
+}
+footer .footer-card-group{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+footer .footer-card-group .footer-card{
+    width: 33%;
+    color: rgba(255, 255, 255, 1);
+}
+footer .footer-card-group .footer-card h3{
+    margin-bottom: 50px;
+    margin-top: 70px;
+    font-weight: bold;
+    font-size: 24px;
+}
+footer .footer-card-group .footer-card p{
+    margin: 50px 0;
+    display: flex;
+    width: 70%;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 400;
+}
+footer .footer-card-group .footer-card p img{
+    display: inline-block;
+    margin-right: 10px;
+}
+footer .footer-card-group .footer-card p a{
+    color: white;
+}
+
+
+
+/* ------------------------------------------------------------------------------------------------------------------- */
+
+
+footer .footer-card-group .footer-aloqa ul li{
+    padding: 15px 0;
+}
+footer .footer-card-group .footer-aloqa ul li a{
+    font-weight: 500;
+    color: white;
+    font-size: 20px;
+}
+
+
+/* --------------------------------------------------------------------------------------------------------------------- */
+
+
+footer .footer-card-group .footer-card form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+footer .footer-card-group .footer-card form input{
+    padding: 18px;
+    width: 100%;
+    border: none;
+    background-color: rgba(196, 196, 196, 0.25);
+    border-radius: 8px;
+    color: #fff;
+}
+footer .footer-card-group .footer-card form button{
+    padding: 20px 20%;
+    display: block;
+    border: 1px solid rgba(255, 255, 255, 1);
+    background-color: transparent;
+    color: #fff;
+    border-radius: 8px;
+    margin-top: 25px;
+}
+footer .footer-card-group .footer-card form button:hover{
+    background-color: rgba(17, 78, 134, 1);
+}
+footer .footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+}
+footer .footer-bottom p{
+    font-weight:400 ;
+    font-size: 16px ;
+    color: #fff;
+}
+footer .footer-bottom .social-blue{
+    display: block;
+}
+footer .footer-bottom .social-orange{
+    display: none;
+}
+footer .footer-bottom .social a{
+    padding: 10px;
+}
+
+
+
+
+.arrow{
+    position: fixed;
+    display: block;
+    right: 50px;
+    bottom: 70px;
+}
+
+
+
+
+
+
+/* =====================================================   Media screen   Media screen   Media screen   ======================================================== */
+
+
+@media screen and (max-width:816px){
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: fixed;
+        background-color: #333;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        z-index: 999;
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.3s ease;
+    }
+    .nav-links li{
+        width: 100%;
+    }
+    .nav-links li:last-of-type{
+        display: none;
+    }
+    .nav-links.active {
+        opacity: 1;
+        pointer-events: all;
+    }
+    .nav-links.active .close-navmenu {
+        display: block;
+    }
+    .nav-links li {
+        margin: 20px 0;
+    }
+    .nav-links a {
+        color: #fff;
+        text-align: center;
+    }
+    
+    .menu-icon{
+        display: inline-block;
+    }
+    header .header-main button{
+        margin: auto;
+    }
+    header .header-main h1{
+        font-size: 30px;
+        text-align: left;
+    }
+    main #section2 .card-group .card{
+        width: 300px;
+        padding: 30px 30px 70px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    header{
+        background: url(../rasmlar/header-bg-xs.png);
+        background-size: cover;
+        padding-bottom: 50px;
+        background-position: center ;
+        background-color: black;
+    }
+    header .logo img{
+        width: 50px;
+    }
+    header .header-main{
+        margin-top: 180px;
+    }
+    header .header-main h1{
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 36px;
+        text-align: center;
+        margin-bottom: 150px;
+        
+    }
+    header .header-main h1 span{
+        display: block;
+        color: orange;
+        animation-name: tezkor;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-delay: 1s;
+        animation-duration: 3s;
+    }
+    /* header .header-main h1 span:hover{
+        font-size: 30px;
+    } */
+     @keyframes tezkor {
+        0%{font: size 24px;}
+        50%{font-size: 40px;}
+        100%{font-size: 24px;}
+     }
+     main #section1 h2{
+        margin-top: 100px;
+     }
+    main #section1 p{
+        font-size: 16px ;
+        line-height: 24px;
+        text-align: center;
+    }
+    main #section1 p:last-child{
+        display: none;
+    }
+    main #section2 .card-group{
+        margin: auto;
+        gap: 35px;
+        justify-content: center;
+    }
+    main #section2 .card-group .card{
+        width: 100%;
+        padding: 30px 30px 70px;
+    }
+    main #section2 .card-group .card img{
+        max-width: 135px;
+        max-height: 135px;
+    }
+    footer .footer-card-group{
+        flex-direction: column;
+    }
+    footer .footer-card-group .footer-card{
+        width: 100%;
+    }
+    footer .footer-card-group .footer-card h3{
+        text-align: center;
+        
+    }
+    footer .footer-card-group .footer-card #Murojat{
+        margin-top: 10px;
+        
+    }
+    footer .footer-aloqa{
+        display: none;
+    }
+    footer .footer-bottom p{
+        font-size: 12px;
+        max-width: 200px;
+    }
+    footer .footer-bottom .social-blue{
+        display: none;
+    }
+    footer .footer-bottom .social-orange{
+        display: block;
+    }
+    .arrow{
+        display: none;
+        position: none;
+    }
+}
